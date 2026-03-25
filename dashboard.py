@@ -106,7 +106,7 @@ def dashboard():
 
         # DOWNLOAD GRAPH
         img_bytes = io.BytesIO()
-        fig2.write_image(img_bytes, format='png')
+        #fig2.write_image(img_bytes, format='png')
         st.download_button("📥 Download Graph", img_bytes, "graph.png")
 
     # ================= MAP =================
